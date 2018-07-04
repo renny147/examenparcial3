@@ -37,10 +37,15 @@ final class CalculateTest extends TestCase{
 		$this->assertEquals(  $calculate->igv19(1000), 190 );
 	}
 
-	public function testIgv5():void{
+	public function testsumaone():void{
 
 		$calculate=new Calculate();
 		$this->assertEquals(  $calculate->add(2,5), 7 );
+	}
+	public function testsumatwo():void{
+
+		$calculate=new Calculate();
+		$this->assertEquals(  $calculate->add(100,200), 300 );
 	}
 /*
 /*
