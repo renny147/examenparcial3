@@ -42,11 +42,7 @@ final class CalculateTest extends TestCase{
 		$calculate=new Calculate();
 		$this->assertEquals(  $calculate->add(2,5), 7 );
 	}
-	public function testsumatwo():void{
-
-		$calculate=new Calculate();
-		$this->assertEquals(  $calculate->add(100,200), 300 );
-	}
+	
 /*
 /*
 	public function testAdd():void{
